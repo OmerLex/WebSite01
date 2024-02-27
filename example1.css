@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Roboto+Mono:wght@200&family=Roboto+Slab:wght@100;400&family=Roboto:ital,wght@0,300;1,900&family=Young+Serif&display=swap');
+
+
+
+h1 {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>;
+  font-style: normal; */
+}
+.flex-container{
+    display: flex;
+}
+
+.left{
+    border: 1px;
+    border-style:solid;
+    border-color: blueviolet;
+    height: auto;
+    width: 30%;
+    margin: 0px;
+    background-color: azure;
+    /* border-radius: 10%; */
+}
+
+.right{
+    border: 1px;
+    border-style:dotted;
+    border-color: red;
+    height: auto;
+    width: 70%;
+    margin: 0px;
+    background-color: white;
+    /* border-radius: 10%; */
+}
+
+img{
+    height: 120px;
+    width: 120px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 1px;
+    border-style:solid;
+    border-color: blueviolet;
+
+}
